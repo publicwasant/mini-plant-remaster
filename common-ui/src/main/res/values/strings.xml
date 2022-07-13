@@ -1,0 +1,11 @@
+<resources>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="card_product_go_shopping_cart">หยิบใส่รถเข็น</string>
+    <string name="card_product_go_sale">ซื้อเลย</string>
+    <string name="product_detail_promotion_title">รายการโปรโมชัน</string>
+    <string name="product_detail_promotion_discount">ส่วนลด</string>
+
+    <string name="connection_successful">กลับมาออนไลน์แล้ว</string>
+    <string name="connection_failed">การเชื่อมต่อล้มเหลว</string>
+</resources>

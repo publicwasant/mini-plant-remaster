@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ref: https://colorpalettes.net/color-palette-1804/ -->
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="connection_successful">#58D68D</color>
+    <color name="connection_failed">#FF5733</color>
+
+    <color name="palette_blue_primary">#6b7d83</color>
+    <color name="palette_blue_zero">#b9c9d4</color>
+    <color name="palette_blue_soft">#cce2f0</color>
+    <color name="palette_green_soft">#9fb59d</color>
+    <color name="palette_green_zero">#516d57</color>
+    <color name="palette_grey_light">#d3d3d3</color>
+    <color name="palette_grey_dark">#FF424242</color>
+</resources>
+
+<!-- Hex Opacity Values -->
+<!-- 100% — FF-->
+<!-- 95% — F2-->
+<!-- 90% — E6-->
+<!-- 85% — D9-->
+<!-- 80% — CC-->
+<!-- 75% — BF-->
+<!-- 70% — B3-->
+<!-- 65% — A6-->
+<!-- 60% — 99-->
+<!-- 55% — 8C-->
+<!-- 50% — 80-->
+<!-- 45% — 73-->
+<!-- 40% — 66-->
+<!-- 35% — 59-->
+<!-- 30% — 4D-->
+<!-- 25% — 40-->
+<!-- 20% — 33-->
+<!-- 15% — 26-->
+<!-- 10% — 1A-->
+<!-- 5% — 0D-->
+<!-- 0% — 00-->
