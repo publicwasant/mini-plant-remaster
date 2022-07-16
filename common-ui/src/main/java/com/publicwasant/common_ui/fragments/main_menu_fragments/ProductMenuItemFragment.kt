@@ -1,12 +1,10 @@
-package com.publicwasant.common_ui.fragments
+package com.publicwasant.common_ui.fragments.main_menu_fragments
 
 import android.annotation.SuppressLint
 import android.content.res.Resources
 import android.os.Build
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
-import android.view.MotionEvent
 import android.view.View
 import android.view.ViewGroup
 import androidx.annotation.RequiresApi
@@ -17,10 +15,9 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 import com.publicwasant.common_ui.R
 import com.publicwasant.common_ui.adapters.ProductsRecycleViewAdapter
 import com.publicwasant.data_manager.DataManager
-import com.publicwasant.data_manager.entities.Product
 import com.publicwasant.network_manager.NetworkManager
 
-class ProductFragment : Fragment() {
+class ProductFragment : MainMenuFragment() {
     private var dataManager: DataManager? = null
 
     private var swRefresh: SwipeRefreshLayout? = null
@@ -89,5 +86,9 @@ class ProductFragment : Fragment() {
 
             swRefresh?.isRefreshing = false
         }
+    }
+
+    override fun onRefresh(callback: () -> Unit) {
+        TODO("Not yet implemented")
     }
 }
